@@ -15,7 +15,6 @@ public class Leer {
         String respuesta;
         do {
             try {
-                System.out.println(mensaje);
                 respuesta = entradaConsola.readLine();
             } catch (IOException ex) {
                 return "";
